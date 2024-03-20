@@ -1,0 +1,451 @@
+@media (max-width: 1375px) {
+    /* Main styles */
+    .container {
+        max-width: 768px;
+        padding: 0 40px;
+        margin: 0 auto;
+    }
+    /* Header block */
+    .header_container {
+        flex-direction: column;
+        max-width: 768px;
+        margin: 0 auto;
+    }
+    .header_image {
+        background-image: url("../images/mobile_hero.jpg");
+        background-size: auto;
+        width: 384px;
+        height: 650px;
+    }
+    .header_content {
+        transform: none;
+        margin-left: 320px;
+        margin-top: 87px;
+    }
+    .header_heading {
+        font-size: 56px;
+    }
+
+    /* Main block */
+    .experience_block {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .experience p {
+        max-width: 688px;
+    }
+    /* Philosophy content */
+    .philosophy_holder {
+        max-width: 768px;
+    }
+    .philosophy_desc {
+        padding-bottom: 67px;
+    }
+    .philosophy_image {
+        width: 384px;
+        height: 600px;
+        background-size: cover;
+    }
+    .philosophy_content_image {
+        background-image: url("../images/philosophy_mobile.jpg");
+        width: 384px;
+        height: 600px;
+    }
+    .philosophy_content {
+        max-width: 304px;
+    }
+    /* Skillset */
+    .skillset_block {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .holder_skill {
+        flex-direction: column;
+    }
+    .skillset p {
+        max-width: 688px;
+    }
+    .skillset_grid {
+        padding-left: 0;
+        margin-top: 48px;
+    }
+    .company_logos {
+        justify-content: space-between;
+    }
+    /* Projects block */
+    .projects_block {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .columns {
+        display: block;
+    }
+    .projects_column_1 {
+        display: inline-block;
+        margin-top: 0px;
+        gap: 0px;
+    }
+    .button_view {
+        margin-top: 5%;
+        margin-left: 30%;
+        padding-top: 4%;
+    }
+    /* Instagram block */
+    .instagram_container {
+        justify-content: space-between;
+        max-width: 768px;
+    }
+    .instagram_content_image {
+        background-image: url("../images/inst_bg_mobile.jpg");
+        width: 384px;
+    }
+    .instagram_content {
+        max-width: 304px;
+    }
+    /* Dribble block */
+    .dribble_block {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .dribble_bg {
+        width: 688px;
+        height: 480px;
+    }
+    /* Reviews block */
+    .reviews_block {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .review_title {
+        max-width: 346px;
+    }
+    .review_desc {
+        max-width: 332px;
+    }
+    .review_card {
+        max-width: 333px;
+    }
+    /* Photo block */
+    .photo_block {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .button_country {
+        padding-top: 3%;
+        margin-top: 64px;
+    }
+    .photo_img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /* Form block */
+    .get_started {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .started_content {
+        max-width: 332px;
+    }
+    .started_desc {
+        width: 332px;
+    }
+    input {
+        width: 332px;
+    }
+    textarea {
+        width: 332px;
+    }
+    .button_form {
+        width: 332px;
+        padding-top: 8%;
+    }
+    /* Footer */
+    .footer {
+        padding: 80px 0 0 40px;
+    }
+    .main_logo_svg {
+        width: 130.716px;
+        height: 40px;
+    }
+    .copyright {
+        width: 329px;
+        padding-bottom: 56px;
+        margin: 0;
+        padding-left: 84px;
+    }
+}
+@media (max-width: 756px) {
+    /* Main styles */
+    .container {
+        max-width: 360px;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+    .header {
+        background-color: #000;
+    }
+    .header_container {
+        flex-direction: column;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+    .header_image {
+        background-image: url("../images/hero.jpg");
+        background-size: auto;
+        width: 360px;
+        height: 288px;
+    }
+    .header_content {
+        position: inherit;
+        transform: none;
+        margin-left: 20px;
+        margin-top: 48px;
+        margin-bottom: 48px;
+        width: 320px;
+    }
+    .header_nav {
+        margin-bottom: 24px;
+    }
+    .header_heading {
+        font-size: 32px;
+    }
+    .header_content p {
+        font-size: 18px;
+    }
+    .nav_item:hover {
+        background-color: transparent;
+        box-shadow: none;
+    }
+    .nav_list {
+        display: none;
+    }
+    .nav_button {
+        display: block;
+        z-index: 9;
+    }
+    
+    .nav.open .nav_list {
+        display: flex;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+        background-color: #0a0a11;
+        z-index: 1;
+        flex-direction: column; 
+        gap: 70px;
+
+        font-size: 35px;
+
+        padding: 40px 0 0 40px;
+    }
+    .nav_item {
+        height: 20px;
+        text-align: left;
+    }
+    /* Main block */
+    .experience_block {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+    .experience p {
+        max-width: 320px;
+        font-size: 32px;
+    }
+    .exp_list {
+        gap: 48px;
+        flex-direction: column;
+    }
+    /* Philosophy block */
+    .philosophy_block {
+        padding-top: 48px;
+    }
+    .philosophy_holder {
+        max-width: 360px;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .philosophy_content_image {
+        width: 360px;
+        height: 450px;
+        margin-top: 51px;
+    }
+    .philosophy_content {
+        margin-top: 0;
+        max-width: 330px;
+        padding-left: 20px;
+        text-align: left;
+    }
+    .philosophy_desc {
+        padding-bottom: 90px;
+    }
+    .philosophy_title {
+        font-size: 32px;
+        word-break: break-all;
+    }
+    /* Skillset */
+    .skillset_block {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+    .skillset h2 {
+        font-size: 32px;
+    }
+    .skillset p {
+        font-size: 18px;
+    }
+    .skillset_grid {
+        display: flex;
+        flex-direction: column;
+    }
+    .column {
+        padding-top: 48px;
+    }
+    .company_logos {
+        display: grid;
+        gap: 65px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .company_logo:hover {
+        transform: none;
+        filter: none;
+    }
+    /* Projects block */
+    .projects_block {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+    .project_content {
+        width: 320px;
+    }
+    .project_content h2 {
+        font-size: 32px;
+    }
+    .project_text {
+        padding: 40px 32px;
+    }
+    .project_text p {
+        padding-top: 13px;
+    }
+    .button_view {
+        margin-top: 10%;
+        margin-left: 10%;
+        padding-top: 8%;
+    }
+    /* Instagram block */
+    .instagram_block {
+        padding-top: 48px;
+    }
+    .instagram_container {
+        max-width: 360px;
+        flex-direction: column;
+    }
+    .instagram_content_image {
+        width: 360px;
+        height: 450px;
+        margin-top: 51px;
+    }
+    .instagram_content {
+        margin-top: 0;
+        max-width: 330px;
+        padding-left: 20px;
+        text-align: left;
+    }
+    .instagram_title {
+        font-size: 32px;
+    }
+    /* Dribble block */
+    .dribble_block {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+    .dribble_bg {
+        width: 320px;
+    }
+    /* Projects block */
+    .reviews_block {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+    .review_holder {
+        flex-direction: column;
+    }
+    .review_main {
+        margin-top: 68px;
+    }
+    .review_title {
+        font-size: 32px;
+    }
+    .review_desc {
+        width: 320px;
+    }
+    /* Photography block */
+    .photo_block {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+    .photo_title {
+        font-size: 32px;
+    }
+    .photo_desc {
+        padding-top: 24px;
+    }
+    .navigation {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .button_country {
+        width: 148px;
+        padding-top: 13%;
+        margin-top: 40px;
+    }
+    .photo_img {
+        display: flex;
+        flex-direction: column;
+    }
+    .country_image_item:hover {
+        transform: none;
+        filter: none;
+    }
+    /* Form block */
+    .get_started {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }  
+    .holder_started {
+        flex-direction: column;
+    } 
+    .contact_form {
+        margin-left: 0;
+        margin-top: 48px;
+    }
+    .started_title {
+        font-size: 32px;
+    }
+    .started_desc {
+        padding-top: 16px;
+    }
+    input {
+        width: 320px;
+    }
+    textarea {
+        width: 320px;
+    }
+    .button_form {
+        width: 320px;
+    }
+    /* Footer */
+    .footer {
+        padding: 48px 0 0 20px;
+    }
+    .footer_container {
+        max-width: 360px;
+        flex-direction: column;
+    }
+    .copyright {
+        max-width: 360px;
+        padding-left: 0px;
+    }
+}
